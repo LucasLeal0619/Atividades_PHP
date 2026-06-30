@@ -1,0 +1,68 @@
+/* Reset básico */
+*{
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+/* Estilo da página */
+body{
+    background-color: #f2f2f2; /* Define a cor de fundo da página */
+    font-family: Arial, sans-serif; /* Define a fonte usada na página */
+}
+
+/* Título principal */
+h1{
+    text-align: center; /* Centraliza o título */
+    margin-top: 60px; /* Adiciona espaço acima do título */
+    margin-bottom: 30px; /* Adiciona espaço abaixo do título */
+}
+
+/* Container do formulário */
+.form-container{
+    display: flex; /* Usa flexbox para organizar os itens */
+    flex-direction: column; /* Coloca os itens em coluna */
+    width: 300px; /* Define a largura do container */
+    margin: 20px auto 50px; /* Centraliza horizontalmente e adiciona margem */
+    justify-content: center; /* Centraliza verticalmente os itens */
+    align-items: center; /* Centraliza horizontalmente os itens */
+    min-height: 60vh; /* Garante altura mínima para centralizar */
+    gap: 20px; /* Adiciona espaço entre os itens */
+}
+
+/* Estilo do formulário */
+form{
+    width: 100%; /* Faz o formulário ocupar toda a largura */
+    background-color: #fff; /* Define a cor de fundo do formulário */
+    padding: 40px; /* Adiciona espaço interno */
+    border-radius: 5px; /* Arredonda as bordas */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona sombra ao formulário */
+}
+
+/* Campos de entrada */
+input{
+    display: block; /* Faz os inputs ficarem em bloco */
+    width: 90%; /* Reduz a largura para ficar mais centralizada */
+    max-width: 400px; /* Define uma largura máxima */
+    padding: 10px; /* Adiciona espaço interno */
+    margin: 10px auto 30px; /* Centraliza os inputs e adiciona espaço */
+    border: 1px solid #ccc; /* Define a borda cinza */
+    border-radius: 10px; /* Arredonda as bordas */
+    box-sizing: border-box; /* Faz a largura incluir padding e borda */
+}
+
+/* Botão de envio */
+button{
+    width: 100%; /* Faz o botão ocupar toda a largura */
+    padding: 10px; /* Adiciona espaço interno */
+    margin-top: 20px; /* Dá espaço entre os inputs e o botão */
+    background-color: #4CAF50; /* Define a cor verde do botão */
+    color: white; /* Define a cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 3px; /* Arredonda as bordas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+button:hover{
+    background-color: #1e41f0; /* Muda a cor do botão ao passar o mouse */
+}
+
