@@ -12,4 +12,6 @@ if ($conexao->query($sql)) {
 } else {
     echo "<br> Erro ao salvar os dados: " . $conexao->error;
 }
+
+echo "<br> <br> Resultado da soma: " . $resultado;
 ?>
